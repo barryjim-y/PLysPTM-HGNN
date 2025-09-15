@@ -46,7 +46,7 @@ Definition of ProtLysMGCN and ablation variants.
 Training functions, cross-validation, and performance logging.  
 
 `eval.py`  
-Evaluation metrics (ROC-AUC, PR-AUC, F1, Accuracy, etc.).  
+Evaluation metrics (ROC-AUC, PR-AUC).  
 
 `preprocess.py`  
 Builds PyTorch Geometric graphs from PPI networks.  
