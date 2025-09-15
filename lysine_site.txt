@@ -1,0 +1,10 @@
+2-Hydroxyisobutyrylation
+Acetylation
+Crotonylation
+Glycation
+Malonylation
+Methylation
+Succinylation
+Sumoylation
+Ubiquitination
+β-Hydroxyisobutyrylation
