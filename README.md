@@ -1,6 +1,6 @@
 # PLysPTM-HGNN
 PLysPTM-HGNN is designed for the prediction of protein lysine post-translational modification (PTM) types. It integrates Gene Ontology (GO) features, Position-Specific Scoring Matrix (PSSM) features, and Large Language Model (LLM) embeddings. These features are seperately processed by a linear transformation, hybrid graph neural network, and convolutional neural network combiner. Then, the refined features are concatenated and fed into a fully connected layer for makeing predictions.
-![PLysPTM-HGNN Framework](images/Figure%202.pdf)
+![PLysPTM-HGNN Framework](images/Figure.png)
 
 
 # Requirements
