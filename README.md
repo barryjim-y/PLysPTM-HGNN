@@ -1,7 +1,6 @@
-# ProtLysMGCN
-ProtLysMGCN is designed for the prediction of protein lysine post-translational modification (PTM) sites. It integrates **Gene Ontology (GO) features**, **Position-Specific Scoring Matrix (PSSM) features**, and **Large Language Model (LLM) embeddings** into a unified graph neural network framework.  
-A **GCN–GAT–GCN backbone** with a **CNN combiner** and **residual connections** is applied to protein-protein interaction (PPI) networks for high-level protein representations. Finally, fully connected layers generate the multi-label classification results.
-
+# PLysPTM-HGNN
+PLysPTM-HGNN is designed for the prediction of protein lysine post-translational modification (PTM) types. It integrates Gene Ontology (GO) features, Position-Specific Scoring Matrix (PSSM) features, and Large Language Model (LLM) embeddings. These features are seperately processed by a linear transformation, hybrid graph neural network, and convolutional neural network combiner. Then, the refined features are concatenated and fed into a fully connected layer for makeing predictions.
+![PLysPTM-HGNN Framework](images/Figure%202.pdf)
 
 
 # Requirements
@@ -19,8 +18,8 @@ click
 
 # Usage
 ```bash
-git clone https://github.com/barryjim-y/ProtLysMGCN.git
-cd ProtLysMGCN
+git clone https://github.com/barryjim-y/PLysPTM-HGNN
+cd PLysPTM-HGNN
 
 # Step 1. Preprocess PPI network
 python main.py process-ppi-cmd matrix.npz graph.bin 100
